@@ -1,0 +1,47 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    background-color: #defdfd;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 150px;
+    color: #FFB6C1;
+}
+
+/* start of index specific html */
+
+#buttBox {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    margin-left: 600px;
+    margin-right: 600px;
+}
+
+#buttBox button {
+    font-size: 45px;
+    background-color: #FFB6C1;
+    border-radius: 17px;
+}
+
+#buttBox button:hover {
+    background-color: #ce969f;
+}
+
+#yes:hover {cursor: url(img/The\ Heart\ Normal\ -\ Copy.cur) 12 12, auto;}
+
+#no:hover {cursor: url(img/The\ Heart\ Help.cur) 12 12, auto;}
+
+#cuteBear {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+#cuteBear img {
+    height: 30%;
+    width: 30%;
+}
