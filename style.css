@@ -7,7 +7,7 @@ body, html {
 }
 
 
-
+/* Styling For Nav Bar */
 .top-nav {
   position: absolute;
   top: 0;
@@ -19,7 +19,6 @@ body, html {
   display: flex;
   justify-content: flex-end;
 }
-
 .top-nav ul {
   margin: 0;
   padding: 0;
@@ -28,18 +27,18 @@ body, html {
   list-style: none;
   gap: 2rem;
 }
-
 .top-nav a {
   color: white;
   text-decoration: none;
   font-weight: bold;
   transition: color 0.2s;
 }
-
 .top-nav a:hover {
   color: hwb(0 25% 75% / 0.541);
 }
 
+
+/* Styling For Hero Section Starts Here */
 .hero-container {
     position: relative;
     height: 100vh;
@@ -65,7 +64,6 @@ body, html {
 .hero p {
     font-size: 3rem;
 }
-
 .overlay {
     position: absolute;
     top: 0;
@@ -74,7 +72,6 @@ body, html {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
 }
-
 .hero-content {
     position: relative;
     z-index: 2;
@@ -90,6 +87,8 @@ p {
     margin-top: 0.5rem;
 }
 
+
+/* Styling For Physics Sim Section/About Me Section */
 #canvas {
     width: 90%;
     height: 100vh;
@@ -101,12 +100,14 @@ p {
     background-size: cover;
     background-position: center;
     overflow: hidden;
-    touch-action: pan-y;  /* Let users scroll vertically on touch devices */
+    touch-action: pan-y;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     user-select: none;
 }
 
+
+/* Styling For Contact Section Starts Here */
 .contact-sect {
     width: 100%;
     margin-top: 100px;
@@ -117,7 +118,6 @@ p {
     justify-content: center;
     color: #5271ff;
 }
-
 .contact-content {
     width: 100%;
     display: flex;
@@ -136,6 +136,8 @@ p {
     justify-self: center;
 }
 
+
+/* Styling For Project Sections Starts Here*/
 #project-1 {
     margin-top: 300px;
     margin-right: 25%;
@@ -163,6 +165,7 @@ p {
 #project-1 a:hover {
     color: #d6d6d636;
 }
+
 
 #project-2 {
     margin-top: 300px;
