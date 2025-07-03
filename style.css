@@ -1,0 +1,193 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgba(240, 240, 240, 1);
+    scroll-behavior: smooth;
+}
+
+
+
+.top-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem 2rem;
+  z-index: 3;
+  background: transparent;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.top-nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  gap: 2rem;
+}
+
+.top-nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.2s;
+}
+
+.top-nav a:hover {
+  color: hwb(0 25% 75% / 0.541);
+}
+
+.hero-container {
+    position: relative;
+    height: 100vh;
+    background-image: url('img/mountain-image.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hero {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero h1 {
+    font-size: 8.5rem;
+}
+.hero p {
+    font-size: 3rem;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+p {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+#canvas {
+    width: 90%;
+    height: 100vh;
+    margin-top: 300px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-image: url('img/about-me-graphic.png');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    touch-action: pan-y;  /* Let users scroll vertically on touch devices */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.contact-sect {
+    width: 100%;
+    margin-top: 100px;
+}
+.contact-sect h2 {
+    font-size: 75px;
+    display: flex;
+    justify-content: center;
+    color: #5271ff;
+}
+
+.contact-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+.contact-content div {
+    text-align: center;
+}
+
+
+#projects-logo {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+}
+
+#project-1 {
+    margin-top: 300px;
+    margin-right: 25%;
+    margin-left: 25%;
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+    background-color: #7e7d7a;
+    border-radius: 10px;
+}
+#project-1 img {
+    height: 500px;
+    border-radius: 5px;
+}
+#project-1 a {
+    font-size: 80px;
+    margin-bottom: 5px;
+    color: #d6d6d6;
+    text-decoration: none;
+}
+#project-1 a:hover {
+    color: #d6d6d636;
+}
+
+#project-2 {
+    margin-top: 300px;
+    margin-right: 25%;
+    margin-left: 25%;
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+    background-color: #7e7d7a;
+    border-radius: 10px;
+}
+#project-2 img {
+    height: 500px;
+    border-radius: 5px;
+}
+#project-2 a {
+    font-size: 80px;
+    margin-bottom: 5px;
+    color: #d6d6d6;
+    text-decoration: none;
+}
+#project-2 a:hover {
+    color: #d6d6d636;
+}
